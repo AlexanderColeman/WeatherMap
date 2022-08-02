@@ -33,7 +33,7 @@ namespace WeatherMap
                     var temp = formattedResponse["list"][0]["main"]["temp"];
                     Console.WriteLine($"\nThe current temperature in {city} is {temp}.");
 
-                    Console.WriteLine("\nIf you would like to quit enter q otherwise press enter to see another weather forcast");
+                    Console.WriteLine("\nIf you would like to quit enter q otherwise press enter to see another weather forecast");
                     var continueOrQuit = Console.ReadLine();
 
                     if (continueOrQuit.ToLower().Equals('q'))
